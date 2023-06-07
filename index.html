@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+
+<header>
+
+    <h2 class="logo" >
+        Relaxing Calculator</h2>
+
+    <nav class="navigation" >
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="service.html">Service</a>
+<a href="contact.html">Contact</a>
+<button class="btnLogin-popup">Login</button>
+    </nav>
+</header>
+
+
+<body>
+
+  <div class="calculator">
+
+    <input type="text" id="display" readonly>
+
+    <div class="buttons">
+
+      <button onclick="clearDisplay()">C</button>
+
+      <button onclick="appendNumber(7)">7</button>
+
+      <button onclick="appendNumber(8)">8</button>
+
+      <button onclick="appendNumber(9)">9</button>
+
+      <button onclick="appendOperator('+')">+</button>
+
+      <button onclick="appendNumber(4)">4</button>
+
+      <button onclick="appendNumber(5)">5</button>
+
+      <button onclick="appendNumber(6)">6</button>
+
+      <button onclick="appendOperator('-')">-</button>
+
+      <button onclick="appendNumber(1)">1</button>
+
+      <button onclick="appendNumber(2)">2</button>
+
+      <button onclick="appendNumber(3)">3</button>
+
+      <button onclick="appendOperator('*')">*</button>
+
+      <button onclick="appendNumber(0)">0</button>
+
+      <button onclick="calculateResult()">=</button>
+
+      <button onclick="appendOperator('/')">/</button>
+
+
+      
+    </div>
+
+  </div>
+ 
+
+  <script src="script.js"></script>
+<footer> <audio controls loop>
+    <source src="music.mp3" type="audio/mp3">
+  </audio></footer>
+</body>
+
+</html>
